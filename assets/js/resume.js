@@ -3,10 +3,10 @@ $(document).ready(function() {
     $(".main.menu").visibility({
       type: "fixed"
     });
-    $(".overlay").visibility({
-      type: "fixed",
-      offset: 40
-    });
+    // $(".overlay").visibility({
+    //   type: "fixed",
+    //   offset: 40
+    // });
 
     // lazy load images
     // $(".image").visibility({
