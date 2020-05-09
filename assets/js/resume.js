@@ -8,12 +8,12 @@ $(document).ready(function() {
     //   offset: 40
     // });
 
-    // lazy load images
-    // $(".image").visibility({
-    //   type: "image",
-    //   transition: "vertical flip in",
-    //   duration: 500
-    // });
+   
+    $(".image").visibility({
+      type: "image",
+      transition: "vertical flip in",
+      duration: 500
+    });
 
     // show dropdown on hover
     $(".main.menu  .ui.dropdown").dropdown({
